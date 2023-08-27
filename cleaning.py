@@ -17,3 +17,4 @@ rdd.collect()  # Collect the RDD data into a list
 
 
 rdd.sortBy("sample")
+for each()
