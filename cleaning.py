@@ -14,5 +14,6 @@ rdd = sc.textFile(s3_file_path)
 rdd.collect()  # Collect the RDD data into a list
 # ... other RDD operations ...
 
-# Stop the SparkContext
-sc.stop()
+
+
+rdd.sortBy("sample")
